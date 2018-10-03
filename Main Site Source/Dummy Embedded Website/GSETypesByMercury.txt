@@ -1,0 +1,8 @@
+1	Air Starter Units
+7	Baggage/Cargo Tractors
+16	Fire Fighting  & Rescue Equipment
+20	Ground Power Units
+22	Lower Deck Loaders
+23	Main Deck Loaders
+31	Pax/VIP Stairs
+32	Pushback Tractors

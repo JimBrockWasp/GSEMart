@@ -1,0 +1,13 @@
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\obj\Release\ResolveAssemblyReference.cache
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Qualitiva.GSEMART.BusinessLayer.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Qualitiva.GSEMART.BusinessLayer.pdb
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Qualitiva.GSEMART.BusinessObject.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Qualitiva.GSEMART.DataLayer.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\SagePayTransaction.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Qualitiva.GSEMART.DataLayer.pdb
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\bin\Release\Qualitiva.GSEMART.BusinessObject.pdb
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\obj\Release\Qualitiva.GSEMART.BusinessLayer.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.BusinessLayer\obj\Release\Qualitiva.GSEMART.BusinessLayer.pdb

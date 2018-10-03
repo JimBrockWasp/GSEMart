@@ -1,0 +1,1231 @@
+﻿/*
+body
+{
+	font-family: Arial,Verdana;
+	font-size: 12px;
+	color: #333333;
+}
+*/
+
+.tenderHeading
+{
+	font-size:14px; 
+	height:35px;
+	float: left;
+	width: 150px;
+	margin-left:10px;
+}
+
+.tenderText
+{
+	font-size:14px; 
+	height:35px;
+	float: left;
+}
+
+.tenderText  input[type=text]
+{
+	font-size:14px; 
+	height:22px;
+}
+
+.tenderInstructions
+{
+	font-size:10px;
+	font-style: italic;
+}
+
+.accountFeatureHeading
+{
+	float: left;
+	width: 30px;
+	height:30px;
+	background-image: url("../images/correct.gif");
+	background-repeat:no-repeat;
+	margin-left:20px;
+}
+.accountFeatureText
+{
+	float:left;
+	width:440px;
+	height:30px;
+	font-size:14px;
+}
+
+.sellerHeader
+{
+	font-size:20px; 
+	color:#A61627; 
+	height:35px;
+}
+
+.advertAdvertId
+{
+	text-align: left;
+	font-size: 12px;
+	color: #666666;
+}
+
+
+.advertTitle
+{
+	position: absolute; 
+	left:0px; 
+	top:0px; 
+	font-size:14px; 
+	font-weight:bold;
+	text-align:left; 
+	margin-left:5px; 
+	width:483px; 
+	height:25px; 
+	overflow:hidden;
+	white-space: nowrap;
+}
+
+.advertBox
+{
+	position:relative; 
+	width:100%; 
+	height:180px; 
+}
+
+.searchInstructionsText
+{
+	font-size:14px; 
+	color:#A61627; 
+	height:35px;
+}
+
+.searchOption
+{
+	width:97%;
+	height:27px;
+	border-radius:5px;
+	font-size:16px;
+	text-align:left;
+}
+
+.searchOptionCheckList
+{
+	height: 30px;
+}
+
+.searchOptionCheckList td
+{
+	width:90px;
+	font-size:16px;
+	text-align: left;
+}
+
+
+.footerText
+{
+	font-size:11px;
+	color: #A61627;
+}
+
+.statisticsText
+{
+	font-size:26px;
+	color: #A61627;
+}
+
+.hiddencol
+{
+    display: none;
+}
+        
+.searchCol1
+{
+    width:495px; background-color: #f0f0f0; float: left;padding:6px 0 0 6px;
+}  
+.searchCol2
+{
+    width:495px; background-color: #e0e0e0; float: left;padding:6px 0 0 6px;
+}
+.optionCol1 
+{
+    width:240px; float: left;
+    height: 25px;
+}
+.optionCol2 
+{
+    width:230px; float: left;
+    font-size: 12px;
+    color: #A61627;
+    margin: 5px 0 0 5px;
+    /*border: solid 1px;*/
+}
+.optionColValidate
+{
+    width:5px; float: left;
+    margin: 5px 0 0 5px;
+}
+
+.NSHeading2
+{
+	text-align:left; 
+	height:18px; 
+	font-style:italic; 
+	color:#A61627;
+	margin-top:15px;
+}
+
+.NSColumnDDL
+{
+    margin-left:5px;
+    width:290px; 
+    height:35px; 
+    vertical-align:middle;
+}
+
+.NSColumnChk
+{
+    margin-left:5px;
+    width:280px; 
+    height:35px; 
+    vertical-align:middle;
+    float:left;
+}
+
+
+.NSColumn1
+{
+    background-color: white; 
+    float:left; 
+    width:130px; 
+    height:20px; 
+    vertical-align: middle;
+    padding-top: 5px;
+    overflow:hidden;
+    white-space:nowrap;
+    margin-left:5px;
+}
+
+.NSColumn2
+{
+    margin-left:5px;
+    float:left; 
+    width:50%; 
+    height:35px; 
+    vertical-align:middle;
+}
+
+.NSColumn2 Select
+{
+	width:97%;
+	height:27px;
+	border-radius:5px;
+	font-size:12px;
+	text-align:left;
+}
+
+.NSColumn2 input[type="text"]
+{
+	width:45px;
+	height:22px;
+	border-radius:5px;
+	font-size:12px;
+	text-align:left;
+}
+
+.NSColumnValidate
+{
+    float:left; 
+    width:10px; 
+    height:35px; 
+    vertical-align:middle;
+   
+}
+
+.NSColumn2Text
+{
+    padding-top: 9px;
+}
+
+.NSColumnTips
+{
+    float:left; 
+    width:232px; 
+    height:20px; 
+    padding: 5px 0 0 2px;
+    font-size:11px;
+	color: #A61627;
+	text-align:left;
+    /*border: solid 1px;*/
+    
+}
+
+.NSBlank
+{
+    /*border: solid 1px;*/
+    background-color: white; 
+    position: absolute; 
+    width:100%; 
+    height:150px; 
+    z-index: 2;
+}
+
+.NSEngineBlank
+{
+    background-color:  white; 
+    width:100%; 
+    height:35px; 
+
+}
+
+.NSSearchButton
+{
+	position:relative;
+    width:97%; 
+    height:35px; 
+    z-index: 1; 
+    background-color: #d0d0d0;
+    padding: 6px 0 0 6px;
+}
+
+.NSCriteria
+{
+    background-color: white; 
+    position: absolute; 
+    width:100%; 
+    height:150px;
+    top: 5px;
+    left: 0px;
+    padding: 0 0 0 0;
+    z-index: 0;
+    text-align:left;
+    font-size:12px;
+    /*border: solid 1px;*/
+}
+
+.NSCriteria h2
+{
+    padding: 0 0 0 0;
+    margin:0 0 0 0;
+    font-size:14px;
+}
+
+.supplierPDFImage
+{
+    height:40px;
+    margin-top:5px;
+}
+
+.sH
+{
+    /*border: solid 1px;*/
+    font-weight: bold;
+    width:80px;
+    height:20px;
+    float:left;
+    margin-top: 5px;
+}
+.sD
+{
+    /*border: solid 1px;*/
+    font-weight: normal;
+    width:220px;
+    height:20px;
+    float:left;
+    margin-top: 5px;
+}
+
+.sD a
+{
+    /*border: solid 1px;*/
+    display:inline-block;
+}
+
+.supplierImage
+{
+    /*border: solid 1px;*/
+    width: 300px;
+    height: 100px;
+    float: left;
+    display:table-cell;
+    vertical-align: middle; 
+    text-align: center;
+    
+    
+}
+
+.supplierContactDetails
+{
+    /*border: solid 1px;*/
+    width:640px;
+    height:80px;
+    float: left;
+}
+
+.supplierContent
+{
+    /*border: solid 1px;*/
+    width:940px;
+    float: left;
+    text-align:justify;
+    line-height:normal;
+}
+.supplierHR
+{
+    border:0;
+    color: #CCC;
+    background-color: #CCC;
+    height: 1px;
+}
+
+.supplierCompanyName
+{
+    /*border: solid 1px;*/
+    width:100%;
+    height:25px;
+    font-size:18px;
+    text-align: left;
+    background-color: #A61627;
+    color: White;
+    padding-left: 5px;
+}
+
+
+.ratetable
+{
+    border-color: gray;
+    border-collapse: collapse;
+    border-bottom-width: 1px;
+    line-height: 25px;
+    border: 0px;
+
+}
+
+.ratetable th
+{
+    text-align: left;
+    background-color: #A61627;
+    color: White;
+    border: 0px;
+}
+
+.ratetable tr, td
+{
+    border: 0px;
+    border-style:solid;
+}
+
+
+.BoxShadow
+{
+    -moz-box-shadow: 2px 2px 3px 1px #aaa;
+    -webkit-box-shadow: 2px 2px 3px 1px  #aaa;
+    box-shadow: 2px 2px 3px 1px #aaa;
+    border:solid 1px lightgray;
+}
+
+.BoxShadow img a
+{
+    text-decoration: none;
+    border-style: none;
+}
+
+#PartnerHeading
+{
+    color: #A61627;
+    font-family: Arial,Verdana;
+    font-size:22px;
+    font-weight:bold;
+    text-align: center;
+}
+
+#GSEInFocus
+{
+    color: #A61627;
+    background-color:White;
+    font-family: Arial,Verdana;
+    font-size:22px;
+    font-weight:bold;
+    width:670px;
+    -moz-box-shadow: 2px 2px 3px 1px #aaa;
+    -webkit-box-shadow: 2px 2px 3px 1px  #aaa;
+    box-shadow: 2px 2px 3px 1px #aaa;
+
+}
+
+#GSEInFocus a
+{
+    color: Gray;
+}
+
+
+.menuTD
+{
+    padding: 0px;
+}
+
+.mainTable
+{
+    border: 0 0 0 0;
+    border-left:solid 1px #A61627;
+	border-right:solid 1px #A61627;
+	border-bottom:solid 1px #A61627;
+	background-color: #E6E6E6;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+}
+
+a
+{
+	color:#A61627;
+	text-decoration:none;
+	/*border-bottom:dotted 1px #0038a7;*/
+	border: none;
+}
+
+a:hover
+{
+	color:#000000;
+	text-decoration:none;
+	border-bottom:dotted 1px #A61627;
+	border: none;
+
+}
+
+.image
+{
+	border-bottom:none;
+}
+
+.noborderline
+{
+	border-bottom:none;
+}
+
+.noborderline:hover
+{
+	border-bottom:none;
+}
+
+.content-center
+{
+	width:1024px;
+}
+
+.content-center h3
+{
+	color:#A61627;
+}
+
+.page-header
+{
+	width:100%;
+	padding:0px;
+	height:55px;
+	font-size:10px;
+}
+
+.total-item-listing
+{
+	font-size:13px;
+	font-weight:bold;
+	text-align: right;
+	width:100%;	
+}
+
+.main-content-header
+{
+	font-family:Arial,Verdana;
+	width:100%;
+	/* background:#A61627;*/
+	height:80px;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	border: 0px 0px 0px 0px;
+	border-spacing: 0px;
+}
+
+.main-content-header table
+{
+	border-collapse:collapse;
+	padding:0px;
+}
+
+.main-content-header table tr
+{
+	height:25px;
+}
+
+.header-button
+{
+	height:30px;
+	font-size:20px;
+	color:#FFFFFF;
+	font-weight:bold;
+	background:#A61627;
+	padding-top:5px;
+	padding-left:10px;
+	padding-right:10px;
+	border-right: dotted 1px;
+	text-align: center;
+	font-weight:normal;
+	vertical-align:middle;
+	border: 0px;
+    border-radius: 7px;
+    width:149px;
+	
+}
+
+.header-button a
+{
+	font-size:13px;
+	
+	text-decoration:none;
+	height:25px;
+}
+
+form select
+{
+	border: 1px solid #999999;
+}
+
+form input[type=text], input[type=password], textarea
+{
+	border: 1px solid #999999;
+}
+
+.welcome-message
+{
+	width:100%;
+}
+
+.welcome-message .header
+{
+	font-family:Verdana,Arial;
+	background-image: url('../images/heading.png');
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.welcome-message td
+{
+	height:25px;
+}
+
+.welcome-message .content
+{
+	font-family:Verdana,Arial;
+	font-size:12px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:10px;
+	background-color:#FFFFFF;
+	border-left:solid 1px #A61627;
+	border-right:solid 1px #A61627;
+	border-bottom:solid 1px #A61627;
+}
+
+.welcome-message .content h2
+{
+	
+	color: #0038a7;
+}
+
+.welcome-message .content h3
+{
+	
+	color: #000000;
+}
+
+.welcome-message .content .text
+{
+	font-size:11px;
+	font-weight: bold;
+	color: #214cb5;
+	line-height:20px;
+}
+
+.recently-added-message
+{
+	color:#0038a7;
+	text-align:right;
+	padding-bottom:5px;
+}
+
+.quick-search
+{
+	width:100%;	
+}
+
+.quick-search .header
+{
+	font-family:Verdana,Arial;
+	background-image: url('../images/heading.png');
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.quick-search .content
+{
+	font-family:Verdana,Arial;
+	padding:5px;
+	border-left:solid 1px #A61627;
+	border-right:solid 1px #A61627;
+	border-bottom:solid 1px #A61627;
+	background-color: #FFFFFF;	
+}
+
+.NewUsedImage
+{
+    width: 60px;
+    vertical-align:top;
+	padding:0px;
+}
+
+.tips
+{
+	font-size:11px;
+	/*color: #999999;*/
+	color: #A61627;
+	text-align:left;
+}
+
+.top-listing-row
+{
+   	/*background-color: #214cb5;*/
+   	background-color: #A61627;
+   	color: #e6e6e6;
+
+}
+
+.top-listing-row .label
+{
+   	/*background-color: #214cb5;*/
+   	color: #FFFF20;
+
+}
+
+.top-listing-row h3
+{
+    color: #e6e6e6;
+    font-size: 16px;
+}
+
+
+.top-listing
+{
+	width:100%;
+
+}
+
+
+.top-listing .item-image
+{
+	vertical-align:bottom;
+	text-align: center;
+}
+
+.top-listing .item-image img
+{
+	padding-bottom:5px;
+	width:157px;
+}
+
+.top-listing .item-title
+{
+	vertical-align:top;
+	text-align: center;
+	line-height: 15px;
+	padding-bottom: 5px;
+	width:157px;
+	overflow:hidden;
+	height:24px;
+}
+
+.allListing
+{
+	width: 100%;
+	border: 1px solid #C0C0C0;
+}
+
+.allListing th
+{
+	background-color: #E6E6E6;
+	height:25px;
+}
+
+.allListing .advertId
+{
+	vertical-align:top;
+	padding:2px;
+}
+
+.allListing .title
+{
+	width:300px;
+	vertical-align:top;	
+	padding:2px;
+}
+
+.allListing .seller
+{
+	vertical-align:top;	
+	padding:2px;
+}
+
+.allListing .quantity
+{
+	vertical-align:top;	
+	padding:2px;
+}
+
+.dotted
+{
+	background-image: url('../images/dotted-orange.png');
+	background-repeat:repeat-x;
+	height:10px;
+}
+
+.paging-display-message
+{
+	font-size: 12px;
+	padding-bottom: 5px;
+	width: 100%;
+	color: #333333;
+	
+}
+
+.paging-display-message .highlight
+{
+	font-weight:bold;
+}
+
+.paging-display-message .selected
+{
+	color: #A61627;
+}
+
+.grid
+{
+	font-size:12px;
+	width:100%;
+	border-spacing:0px;
+	border-collapse:collapse;
+	background-color: #FFFFFF;
+}
+
+.grid td
+{
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:0px;
+	padding-right:5px;
+}
+
+.grid .dotted
+{
+	background-image: url('../images/dotted-grey.png');
+	background-repeat:repeat-x;
+	height:10px;
+	width:100%;
+}
+
+.grid .item
+{
+	width:100%;
+	border-collapse:collapse;
+	border-spacing:1px;
+	padding:0px;
+}
+
+.grid .item .CompanyLogo
+{
+    /*height: 30px;
+	min-height:30px;
+	max-height:30px;
+    */
+    max-height: 40px;
+    max-width: 200px;    
+	vertical-align:top;
+	padding:0px;
+}
+
+
+
+.grid .item .image
+{
+	width:150px;
+	min-width:150px;
+	max-width:150px;
+	max-height:120px;
+	vertical-align:top;
+	padding:0px;
+}
+
+.content-info
+{
+	width:400px;
+	min-width:400px;
+	max-width:400px;
+	vertical-align:top;
+	height:20px;
+	min-height:20px;
+	max-height:20px;
+	padding-bottom:0px;
+}
+
+.content-more-detail
+{
+	width:70px;
+	min-width:70px;
+	max-width:70px;
+	font-size:11px;
+	vertical-align:top;
+	text-align:right;
+	padding-bottom:0px;
+}
+
+.content-shortdescription
+{
+	vertical-align:top;
+	padding-top:5px;
+	width:650px;
+}
+
+.content-specheading
+{
+	vertical-align:top;
+	padding-top:2px;
+	font-weight:bold;
+	font-size: 12px;
+	text-align: left;
+	overflow:hidden; 
+	white-space:nowrap;
+	width: 110px;
+}
+
+.content-specvalue
+{
+	vertical-align:top;
+	padding-top:2px;
+	font-size: 12px;
+	padding-left: 0px ;
+	text-align: left;
+	overflow:hidden; 
+	white-space:nowrap;
+	width: 110px;
+}
+
+.content-advertId
+{
+	font-size: 10px;
+	color: #808080;
+	
+}
+
+
+.summary
+{
+	width:170px;
+	min-width:170px;
+	max-width:170px;
+	vertical-align:top;
+}
+
+.content a
+{
+	line-height:25px;
+}
+
+.content-summary
+{
+	font-size: 11px;
+	color: #808080;
+	vertical-align: bottom;
+}
+
+.content-summary a
+{
+	color:#999999;
+	border-bottom:dotted 1px #999999;
+}
+
+.content-summary a:hover
+{
+	color:#A61627;
+	border-bottom:dotted 1px #A61627;
+}
+
+/*.grid .item .summary .price*/
+.price
+
+{
+	font-size: 14px;
+	color: #333333;
+	font-weight:bold;
+}
+
+.grid .item .summary .contact
+{
+	font-size: 12px;
+	width:200px;
+}
+
+.contact .seller
+{
+	background-image: url('../images/seller.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	vertical-align:middle;
+}
+
+.contact .mobile
+{
+	background-image: url('../images/mobile.png');
+	background-repeat:no-repeat;
+	
+	padding-left:25px;
+	vertical-align:middle;
+	
+}
+
+.contact .workphone
+{
+	background-image: url('../images/workphone.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	vertical-align:middle;
+}
+
+.contact .fax
+{
+	background-image: url('../images/fax.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	vertical-align:middle;
+}
+
+.contact .email
+{
+	background-image: url('../images/email.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	vertical-align:middle;
+	height: 35px;
+}
+
+.contact .www
+{
+	background-image: url('../images/www.png');
+	background-repeat:no-repeat;
+	padding-left:25px;
+	vertical-align:middle;
+}
+
+.ads-detail-summary
+{
+	font-size:11px;
+	width:100%;
+}
+
+#gallery 
+{
+	padding:0px;
+	width: 300px;
+}
+
+#gallery a
+{
+	border-width:0px;
+}
+
+#gallery a:hover
+{
+	border-width:0px;
+}
+
+#gallery ul { list-style: none; margin-left: 0px; padding-left: 0px;}
+#gallery ul li { display: inline;}
+#gallery ul img 
+{
+	border:0px;
+}
+
+.rateBtn
+{
+	background-color:Red;
+	background: url('../images/rates.png') no-repeat;
+	background-position:center;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	font-size:medium;
+	text-align:center;
+	font-weight:bold;
+	color:White;
+	font-family:Arial Narrow;
+	height:40px;
+}
+
+.sitefootercopyright
+{
+	font-size: 11px;
+	color: #A61627;
+	text-align: center;
+	background-color: gray;
+	vertical-align:middle;
+}
+
+.sitefooter
+{
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	background-color: gray;
+}
+
+.sitefooter a
+{
+	color: white;
+    
+}
+
+.detail-table
+{
+	width: 340px;
+	border-collapse:collapse;
+	background-color: white;
+}
+.detail-table td
+{
+	padding:4px;
+}
+
+.AdvertCompanyLogo
+{
+    max-height:50px;
+	max-width:100px;    
+	vertical-align:top;
+	padding:0px;
+}
+
+.header-label
+{
+	font-weight:bold;
+	vertical-align:middle;
+}
+	
+.detail-header
+{
+	background-color:#A61627;
+	color: White;
+	font-weight: bold;
+}
+
+.description-title
+{
+	font-family:Verdana, Arial;
+	font-weight: bold;
+	color: #A61627;
+	font-size:16px;
+}
+
+.detail-title
+{
+	font-weight: bold;
+	color: #A61627;
+	font-size:18px;
+	overflow: hidden;
+	white-space:nowrap;
+
+}
+
+.detail-price
+{
+	font-size:18px;
+	font-weight: bold;
+	/*color: #A61627;*/
+	
+}
+
+.description-text
+{
+	font-size:12px;
+	
+}
+
+.search-page-header
+{
+	color:#333399;
+	font-size:16px;
+	font-weight:bold;
+}
+
+.tender-list
+{
+	border: 1px solid #C0C0C0;
+}
+
+.tender-list th
+{
+	background-color: #E6E6E6;
+	height:25px;
+}
+
+.tender-list .tender-id
+{
+	vertical-align:top;
+	padding:2px;
+}
+
+.tender-list .date-received
+{
+	vertical-align:top;
+	padding:2px;
+}
+
+.tender-list .notes
+{
+	vertical-align:top;
+	padding:2px;
+}
+
+.tender-list .end-date
+{
+	vertical-align:top;
+	padding:2px;
+}
+
+#Categories
+{
+    background-color: #D0D0D0;
+    color: Gray;
+    vertical-align:top;
+}
+
+#Categories a
+{
+    color:Gray;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+#statistics
+{
+    color:Gray;
+}
+
+#logos
+{
+    
+    color: gray;
+    font-size: 16px;
+    /*text-align: center;*/
+    /*background-color: White;*/
+}
+
+/*
+#FlashBanner
+{
+    text-align: center;
+}
+*/

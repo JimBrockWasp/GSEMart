@@ -1,0 +1,96 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EE36A80D-BA50-45E7-BDC9-0DC50BEE5229}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Qualitiva.GSEMART.BusinessLayer</RootNamespace>
+    <AssemblyName>Qualitiva.GSEMART.BusinessLayer</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SagePayTransaction, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Qualitiva.GSEMART.Web\Bin\SagePayTransaction.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountAction.cs" />
+    <Compile Include="AdvertAction.cs" />
+    <Compile Include="AdvertChargeRatesAction.cs" />
+    <Compile Include="CategoryAction.cs" />
+    <Compile Include="AdvertAvailabilityAction.cs" />
+    <Compile Include="ManufacturerAction.cs" />
+    <Compile Include="DocumentIndexAction.cs" />
+    <Compile Include="DataNodeAction.cs" />
+    <Compile Include="GSETypeAction.cs" />
+    <Compile Include="CountryAction.cs" />
+    <Compile Include="CreditCardPaymentAction.cs" />
+    <Compile Include="CurrencyAction.cs" />
+    <Compile Include="DiscountAction.cs" />
+    <Compile Include="EmailTemplateAction.cs" />
+    <Compile Include="LogOnTypeAction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QtyAction.cs" />
+    <Compile Include="SiteHitCounterAction.cs" />
+    <Compile Include="SpecAction.cs" />
+    <Compile Include="StateAction.cs" />
+    <Compile Include="TenderAction.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Qualitiva.GSEMART.BusinessObject\Qualitiva.GSEMART.BusinessObject.csproj">
+      <Project>{8507D867-F40E-4E80-A2D9-C1B828B4D656}</Project>
+      <Name>Qualitiva.GSEMART.BusinessObject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Qualitiva.GSEMART.DataLayer\Qualitiva.GSEMART.DataLayer.csproj">
+      <Project>{D0BD3F56-2B2D-42DD-BE64-19F9DECAD54D}</Project>
+      <Name>Qualitiva.GSEMART.DataLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

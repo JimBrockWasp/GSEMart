@@ -1,0 +1,10 @@
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\obj\Release\ResolveAssemblyReference.cache
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Qualitiva.GSEMART.DataLayer.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Qualitiva.GSEMART.DataLayer.pdb
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Common.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Microsoft.Practices.EnterpriseLibrary.Data.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Microsoft.Practices.ObjectBuilder.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Qualitiva.GSEMART.BusinessObject.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\bin\Release\Qualitiva.GSEMART.BusinessObject.pdb
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\obj\Release\Qualitiva.GSEMART.DataLayer.dll
+F:\Data\OnGround\GSE-Mart\GSE-Mart\Source\GSEMART v16 - Complete Revamp\Source\Application\Qualitiva.GSEMART.DataLayer\obj\Release\Qualitiva.GSEMART.DataLayer.pdb

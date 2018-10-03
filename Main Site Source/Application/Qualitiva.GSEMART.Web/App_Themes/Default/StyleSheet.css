@@ -1,0 +1,492 @@
+﻿body
+{
+	font-family:Verdana, Arial;
+	background-color: White;
+	font-size: 12px;
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+}
+
+.MainDiv
+{
+	width: 800px ;  
+	margin-left: auto ;  
+	margin-right: auto ; 
+	z-index: 1;
+	margin-bottom: 10px;
+	margin-top:10px;
+
+}
+.lblCurPage{font-size: medium; font-family:Arial;color:Black;}
+.lblPageNumbers{color:Blue;font-weight:bold;font-family:Arial;font-size: medium;}
+.lblAdvert{color:#800000;font-weight:bold;font-family:Arial;font-size: medium;}
+
+.btnStyle1
+{
+	color: White;
+	font-weight:bold;
+	padding-top:3px;
+	padding-right:3px;
+	padding-left:3px;
+	padding-bottom:3px;
+	 border: 1px solid #FFFFFF;
+	 background-color: #3D5E7D;
+}
+.tdData
+{
+	font-size: 11px;
+	font-family:Verdana;
+	background-color:White;
+	border-collapse:collapse;
+	border: solid 1px #547390;	
+}
+.tblFormBorder
+{
+	border-collapse:collapse;
+	border: solid 1px #A61627;	
+}
+
+
+.tblFormBorder td
+{
+	font-size: 11px;
+	font-family:Verdana;
+}
+.tblForm td
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	color: #0000CC;
+	font-weight: 700;
+	line-height: 17px;
+	text-align: justify;
+}
+
+.tblCustomForm td
+{
+	font-size: small;
+	font-family:Arial;
+}
+
+.tblCustomForm th
+{
+	background-color: #92a8bd;
+	color:White;
+	font-family:Arial;
+	font-weight:bold;
+	font-size: small;
+}
+.tblCustomFormGrid td
+{
+	font-size: small;
+	font-family:Arial;
+}
+.tblCustomFormGrid th
+{
+	background-color: #92a8bd;
+	color:White;
+	font-family:Arial;
+	font-weight:bold;
+	font-size: small;
+}
+
+.trHeading
+{
+	background: url(heading.png);
+	
+}
+.trSubHeading
+{
+	font-weight:bold;
+	color:White;
+	background-color:#FB7700;
+}
+.trGrid
+{
+	background-color:#FFFFFF;
+}
+.trAltGrid
+{
+	background-color:#FFEBD9;
+}
+/* Notification tables */
+.tblSuccess
+{
+	border-collapse:collapse;
+	border: solid 1px #339900;	
+	background-color:White;
+}
+
+.tblSuccess td
+{
+	background-color:#C8ECA8;
+	font-size: 10px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:Green;
+}
+
+.tblAlert
+{
+	border-collapse:collapse;
+	border: solid 1px #E8E800;
+}
+
+.tblAlert td
+{
+	background-color:#FFFFA6;
+	font-size: 10px;
+	font-family:Verdana;
+	font-weight:bold;
+	color:Red;
+}
+
+.tblError
+{
+	border-collapse:collapse;
+	border: solid 1px #FF6666;	
+}
+
+.tblError td
+{
+	background-color:#FFCCCC;
+	font-size: 10px;
+	font-family:Verdana;
+	color:Red;
+	font-weight:bold;
+}
+
+.lblError
+{
+	background-color:#FFCCCC;
+	font-size: 10px;
+	font-family:Verdana;
+	color:Red;
+	font-weight:bold;
+}
+
+.tblSteps a
+{
+	color:White;
+	text-decoration:none;
+}
+
+/*
+.tblSteps a[disabled] {
+   color:White;
+}
+*/
+
+.tblSteps td
+{
+	font-size: 11px;
+	font-family:Verdana;
+	font-weight:bold;
+}
+.inActiveStep{background-color:#C0C0C0;}
+.activeStep{background-color: #92a8bd;}
+.selectedStep{background-color: #810102;color:White;}
+
+.tblSeller
+{
+	/*
+	border-collapse:collapse;
+	border: solid 1px #810102;	
+*/
+}
+
+.tblSeller td
+{	
+	font-family:Arial;
+	font-size:small;
+	font-weight:normal;
+}
+
+
+.tblSeller a
+{
+	font-family:Arial;
+	font-size:small;
+	text-decoration:underline;
+}
+.adTitle a
+{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:large;
+	color:Black;
+	text-decoration:none;
+}
+.adTitle
+{
+	font-family:Arial;
+	font-weight:bold;
+	font-size:large;
+	color:Black;
+	text-decoration:none;
+}
+.trSD{font-family:Arial;}
+.trSeller1{background-color: #C0C0C0;}
+.trSeller2{background-color: #C0C0C0;}
+.trPrice{background-color: #FE9900;font-weight:bold;font-size:large;font-family:Arial;}
+.trP2{background-image:none;}
+.trAdv1{background-color: #F1F1F1;}
+.trSubHeading2{font-family:Arial Black;font-size:11px;}
+/* textarea in Grdi */
+.gridtextarea{font-size: 11px;font-family:Verdana;width:500px;height:100px}
+
+
+
+/* New styles */
+.Container
+{
+	border-width:0px;
+	margin: 0px 0px 0px 0px;
+	padding:0px;
+}
+.BoxBorder
+{
+	width:100%; 
+	/*
+	border-style:solid; 
+	border-width:1px; 
+	border-color:#A61627;
+	padding: 0px;*/
+	
+	background-color:White;
+	
+}
+.BoxBorder th
+{
+	text-align:center;
+	background: url(heading.png);
+	font: bold 16px 'Trebuchet MS' , 'Arial';
+	color: White;
+	height: 25px;
+	width:auto;
+}
+.Toolbar
+{
+	font-size: 10pt;
+	font-weight: 700;
+	color: #0000FF;
+	background-image: url('Button.png');
+}
+.StandardText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight:bold;
+}
+.BodyText
+{
+	font-family: Arial;
+	font-size: 10pt;
+	color: blue;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: justify;
+}
+
+.TableBodyText
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: blue;
+	font-weight: normal;
+	line-height: 1.5;
+	text-align: justify;
+	border: 1px solid #A61627;
+}
+
+.TableBorder
+{
+	border: 1px solid #A61627;
+}
+.th
+{
+	background-image:url('heading.png');
+	font: bold 14px 'Trebuchet MS' , 'Arial';
+	color: White;
+	height: 25px;
+	width:auto;
+}
+
+/*
+th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: medium;
+	color: #FFFFFF;
+	background-color: #A61627;
+}
+*/
+.SmallText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: small;
+}
+.BigText
+{
+	font-family: Arial;
+	font-size: small;
+	color: blue;
+}
+.BigTextHeader
+{
+	font-size: large;
+ font-weight:bold;
+	color:blue;
+}
+.DataHeading
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: Medium;
+	color: #0000CC;
+	font-weight: 700;
+	line-height: 1.5;
+	text-align: left;	
+}
+
+/* Tool Bar*/
+
+#vista_toolbar {
+float:left;
+font:bold 12px 'Trebuchet MS','Arial';
+margin:0;
+padding:0;
+}
+
+#vista_toolbar ul {
+background-image:url(heading.png);
+background-repeat:repeat-x;
+float:left;
+line-height:26px;
+list-style:none;
+margin:0;
+padding:0 10px 0 10px;
+width:780px;
+}
+
+#vista_toolbar li {
+display:inline;
+padding:0;
+}
+
+
+#vista_toolbar a {
+color:#FFF; /* need because it will use default link color */
+float:left;
+padding:0 3px 0 3px; /* left 3 px because of left.png image */ 
+text-decoration:none;
+}
+
+#vista_toolbar a span 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	display:block;
+	float:none;
+	padding:0 13px 0 7px;
+}
+
+#vista_toolbar a span img {
+border:none;
+margin: 8px 4px 0 0;
+}
+
+/* show picture when mouse over link */
+#vista_toolbar a:hover{
+background: url(leftorange.png) no-repeat left center;
+}
+
+
+#vista_toolbar a.disabled:hover
+{
+	background-image:none;
+}
+
+#vista_toolbar a:hover span.disabled 
+{
+	background-image:none;
+	color:InactiveBorder;
+}
+#vista_toolbar a span.disabled 
+{
+	color:InactiveBorder;
+}
+
+#vista_toolbar a:hover span {
+background:url(rightorange.png) no-repeat right center;
+}
+
+#vista_toolbar a.right {
+float:right; /* for help button - just add class "right" ->  <a class="right"... */
+}
+
+.divMarginCenter{
+margin: 20px 20px 20px 20px; text-align: center;
+}
+
+.divMargin {
+margin:  20px 20px 20px 20px;
+}
+.divMarginLeftRight {
+margin:0px 20px 20px 20px;
+}
+.divMarginLogin {
+margin:  20px 20px 20px 20px;
+}
+
+.smallMarginTxt
+{
+	font-size: x-small; 
+	color: gray;
+}
+
+.smallMarginLeftTxt
+{
+	font-size:small; 
+	margin-left: 20px;
+}
+
+.mrgLeftAndBtmTxt
+{
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.faqLink
+{
+	font-size: xx-small;
+	color: #666666;
+}
+
+.advertCounter
+{
+	text-align: right;
+	font-size: 12px;
+	color: #666666;
+}
+
+.charLimitInfo
+{
+	float:left;
+	color:#FF0000;
+	font-size:12px;
+}
+.executionTime
+{
+	font-size: 11px;
+	color: #FFFFFF;
+}
+
+.paging
+{
+	font-size:13px;	
+}
+
+/*
+.highlight
+{
+	font-weight:bold;
+	color:#0000FF;
+}
+*/

@@ -328,3 +328,22 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+
+# Xojo (formerly REALbasic and Real Studio)
+
+Builds*
+Debug*
+BuildPath*
+DebugPath*
+*.debug
+*.debug.app
+*.rbuistate
+*.xojo_uistate
+*obsolete_*
+app.config
+aaRunAllScripts.bat
+errors.*
+*.zip
+*.log
+*.csv
