@@ -68,8 +68,7 @@ public partial class sellerHome : System.Web.UI.Page
             objAccount.AgreedTCYN = true;
             objAccountType.AccountTypeId = (int)AccountTypeEnum.ComplementaryAccount;
             objAccount.AccountType = objAccountType;
-
-
+            
 
             objAccount = AccountAction.AddAccount(objAccount, "nocode");
             ctlNotifier.intResponseCode = objAccount.RespCode;

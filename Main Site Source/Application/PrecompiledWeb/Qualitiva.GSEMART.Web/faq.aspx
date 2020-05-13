@@ -1,4 +1,4 @@
-<%@ page language="C#" masterpagefile="~/site.master" autoeventwireup="true" inherits="faq, App_Web_1ganjq4w" title="FAQ - GSE-Mart.aero" theme="Default" maintainScrollPositionOnPostBack="true" %>
+<%@ page language="C#" masterpagefile="~/site.master" autoeventwireup="true" inherits="faq, App_Web_lehcpdw-" title="FAQ - GSE-Mart.aero" theme="Default" maintainScrollPositionOnPostBack="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 <div class="BoxShadow" style="width:1018px; height:2050px">

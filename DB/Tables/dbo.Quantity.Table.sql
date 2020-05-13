@@ -1,0 +1,17 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Quantity](
+	[GSETypeId] [int] NOT NULL,
+	[QuantityId] [char](5) NOT NULL,
+	[Description] [nvarchar](50) NOT NULL,
+	[Sequence] [int] NULL,
+	[ShortDescription] [nvarchar](15) NULL,
+ CONSTRAINT [PK_Quantity] PRIMARY KEY CLUSTERED 
+(
+	[GSETypeId] ASC,
+	[QuantityId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO

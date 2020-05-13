@@ -1,0 +1,19 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE   FUNCTION [dbo].[fnGetDate] () RETURNS DATETIME  AS
+ BEGIN
+    DECLARE @dte DATETIME
+    SELECT @dte =  DATEADD(mi,ISNULL(TimeZoneDiff,0),GETDATE())  FROM AppSettings
+    RETURN @dte
+ END
+
+
+
+
+
+
+
+
+GO

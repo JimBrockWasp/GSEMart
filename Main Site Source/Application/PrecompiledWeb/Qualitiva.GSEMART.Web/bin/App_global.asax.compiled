@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<preserve resultType="8" virtualPath="/Qualitiva.GSEMART.Web/global.asax" hash="1b606b73" filehash="ffffdf41c2ecda3d" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+<preserve resultType="8" virtualPath="/Qualitiva.GSEMART.Web/global.asax" hash="1b606b73" filehash="ffffe44ed5cdce0b" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
     <filedeps>
         <filedep name="/Qualitiva.GSEMART.Web/global.asax" />
     </filedeps>

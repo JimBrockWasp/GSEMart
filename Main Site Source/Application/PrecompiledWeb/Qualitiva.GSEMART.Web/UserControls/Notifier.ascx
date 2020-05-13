@@ -1,4 +1,4 @@
-<%@ control language="C#" autoeventwireup="true" inherits="ctl_Notifier, App_Web_9nweug_d" %>
+<%@ control language="C#" autoeventwireup="true" inherits="ctl_Notifier, App_Web_a9uttagh" %>
 <table border="0" cellpadding="5" cellspacing="0" width="100%" id="tblMsg" runat="server" visible="false">
     <tr>
         <td valign="top" width="1%">

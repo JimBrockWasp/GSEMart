@@ -1,4 +1,4 @@
-﻿<%@ page language="C#" autoeventwireup="true" inherits="EmbeddedAdDetails, App_Web_wtl_aivr" theme="Default" maintainScrollPositionOnPostBack="true" %>
+﻿<%@ page language="C#" autoeventwireup="true" inherits="EmbeddedAdDetails, App_Web_wtvs-xho" theme="Default" maintainScrollPositionOnPostBack="true" %>
 <%@ Register TagPrefix="uc" TagName="Advert" Src="~/UserControls/Advert.ascx" %>
 <%@ Register TagPrefix="uc" TagName="Notifier" Src="~/UserControls/Notifier.ascx" %>
 

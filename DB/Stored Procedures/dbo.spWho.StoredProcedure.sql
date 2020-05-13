@@ -1,0 +1,37 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[spWho] 
+AS
+
+BEGIN
+
+
+	DECLARE @Results TABLE (
+		SPID		INT, 
+		Status		VARCHAR(1000) NULL, 
+		Login		SYSNAME NULL, 
+		HostName	SYSNAME NULL, 
+		BlkBy		SYSNAME NULL, 
+		DBName		SYSNAME NULL, 
+		Command		VARCHAR(1000) NULL, 
+		CPUTime		INT NULL, 
+		DiskIO		INT NULL, 
+		LastBatch	VARCHAR(1000) NULL, 
+		ProgramName VARCHAR(1000) NULL, 
+		SPID2		INT,
+		RequestID	INT
+	)
+
+	INSERT INTO @Results
+	EXEC sp_who2
+
+	SELECT	*
+	FROM	@Results
+	WHERE	DBName = 'liveGSEMartv16'
+	AND		ProgramName LIKE '.Net%'
+
+END
+
+GO

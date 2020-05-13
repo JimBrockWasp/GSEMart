@@ -1,4 +1,4 @@
-<%@ page language="C#" enableeventvalidation="false" masterpagefile="~/Site.master" autoeventwireup="true" inherits="_default, App_Web_1ganjq4w" title="GSE Mart - Global Ground Support Equipment Database" theme="Default" maintainScrollPositionOnPostBack="true" %>
+<%@ page language="C#" enableeventvalidation="false" masterpagefile="~/Site.master" autoeventwireup="true" inherits="_default, App_Web_undihsvo" title="GSE Mart - Global Ground Support Equipment Database" theme="Default" maintainScrollPositionOnPostBack="true" %>
 
 <%@ Register TagPrefix="uc" TagName="Notifier" Src="~/UserControls/Notifier.ascx" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
@@ -419,7 +419,7 @@
             <a href="http://www.groundhandling.com" target="_blank"><img src="images/inFocus/Finalbanner.gif" style="border-style: none;"/></a>
         </div>
         <div class="BoxShadow" style="position:relative; top:-492px; left: 350px; width:674px;">
-            <a href="http://www.asaworld.aero/" target="_blank"><img src="images/companylogos/asa.jpg" width="674px"  style="border-style: none;"/></a>
+            <a href="http://www.asaworld.aero/" target="_blank"><img src="images/companylogos/asa.jpg" width="674px" height = "85" style="border-style: none;"/></a>
         </div>
         
     </div>

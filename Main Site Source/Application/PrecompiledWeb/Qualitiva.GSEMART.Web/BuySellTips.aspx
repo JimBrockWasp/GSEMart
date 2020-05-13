@@ -1,4 +1,4 @@
-<%@ page language="C#" masterpagefile="~/site.master" autoeventwireup="true" inherits="BuySellTips, App_Web_iwkgo6nn" title="Buying & Selling Tips - GSE-Mart.aero" theme="Default" maintainScrollPositionOnPostBack="true" %>
+<%@ page language="C#" masterpagefile="~/site.master" autoeventwireup="true" inherits="BuySellTips, App_Web_undihsvo" title="Buying & Selling Tips - GSE-Mart.aero" theme="Default" maintainScrollPositionOnPostBack="true" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="Server">
 <table width="100%" class="mainTable" cellspacing="1" cellpadding="2">

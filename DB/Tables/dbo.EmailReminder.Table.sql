@@ -1,0 +1,17 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[EmailReminder](
+	[EmailReminderId] [int] IDENTITY(1,1) NOT NULL,
+	[EmailAddress] [nvarchar](50) NOT NULL,
+	[AccountId] [int] NOT NULL,
+	[EmailSubject] [nvarchar](200) NOT NULL,
+	[EmailBody] [text] NOT NULL,
+	[SentDate] [datetime] NOT NULL,
+ CONSTRAINT [PK_EmailReminder] PRIMARY KEY CLUSTERED 
+(
+	[EmailReminderId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO

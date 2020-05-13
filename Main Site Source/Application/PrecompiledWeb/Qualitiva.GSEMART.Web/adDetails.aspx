@@ -1,4 +1,4 @@
-<%@ page language="C#" masterpagefile="~/site.master" autoeventwireup="true" inherits="adDetails, App_Web_1ganjq4w" title="Advert Details" theme="Default" maintainScrollPositionOnPostBack="true" %>
+<%@ page language="C#" masterpagefile="~/site.master" autoeventwireup="true" inherits="adDetails, App_Web_3p_pvgco" title="Advert Details" theme="Default" maintainScrollPositionOnPostBack="true" %>
 
 <%@ Register TagPrefix="uc" TagName="Advert" Src="~/UserControls/Advert.ascx" %>
 <%@ Register TagPrefix="uc" TagName="Notifier" Src="~/UserControls/Notifier.ascx" %>

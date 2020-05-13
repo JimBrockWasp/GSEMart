@@ -1,0 +1,9 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[zzAgeBackup](
+	[AdvertId] [int] NULL,
+	[Age] [int] NULL
+) ON [PRIMARY]
+GO

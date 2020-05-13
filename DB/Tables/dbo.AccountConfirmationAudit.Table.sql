@@ -1,0 +1,15 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[AccountConfirmationAudit](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[EmailAddress] [nvarchar](50) NOT NULL,
+	[ConfirmationCode] [nvarchar](50) NOT NULL,
+	[ConfirmedYN] [bit] NOT NULL,
+ CONSTRAINT [PK_ActivationAudit] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+GO

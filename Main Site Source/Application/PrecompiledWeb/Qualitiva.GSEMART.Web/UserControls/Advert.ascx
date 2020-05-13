@@ -1,4 +1,4 @@
-<%@ control language="C#" autoeventwireup="true" inherits="ctl_Advert, App_Web_9nweug_d" %>
+<%@ control language="C#" autoeventwireup="true" inherits="ctl_Advert, App_Web_a9uttagh" %>
 
 <link href='<%= ResolveUrl ("~/style/jquery.lightbox-0.5.css") %>' rel="stylesheet" type="text/css">
 <script type="text/javascript" src="<%= ResolveUrl ("~/js/jquery.lightbox-0.5.min.js") %>"></script>

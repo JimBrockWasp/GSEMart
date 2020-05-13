@@ -1,0 +1,43 @@
+SET ANSI_NULLS OFF
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE PROCEDURE [dbo].[prUpdAdvertTransaction]     
+(    
+	@VendorTransactionCode NVARCHAR(100),
+	@AdvertId INT,	
+	@AccountId INT,
+	@CreditCardNumber NVARCHAR(50),
+	@AmountPaid DECIMAL(15,2),
+	@StatusCode INT,
+	@TransactionCode NVARCHAR(50)
+)
+AS
+BEGIN
+    SET NOCOUNT ON   
+    BEGIN TRY        
+        BEGIN TRANSACTION        
+                
+				UPDATE [AdvertTransaction]
+				SET CreditCardNumber = @CreditCardNumber,
+					AmountPaid = @AmountPaid,
+					StatusCode = @StatusCode,
+					TransactionCode = @TransactionCode,
+					LastUpdate = GETDATE()
+				WHERE VendorTransactionCode = @VendorTransactionCode
+				AND AdvertId = @AdvertId
+				AND AccountId = @AccountId
+        COMMIT
+    END TRY
+    BEGIN CATCH
+        IF (@@TRANCOUNT > 0)
+        BEGIN  
+            ROLLBACK
+        END 
+        DECLARE @Errmsg nvarchar (4000), @ErrSeverity int
+        SELECT @Errmsg=ERROR_MESSAGE (), @ErrSeverity=ERROR_SEVERITY ()
+        RAISERROR (@Errmsg, @ErrSeverity, 1)
+    END CATCH           
+END
+
+GO
