@@ -222,7 +222,8 @@ public partial class ctl_Advert : System.Web.UI.UserControl
             AddDetailRow(tblContactDetails, "Email:", "<a href='mailto:" + objAdvert.EmailAddress + "?Subject=" + objAdvert.Title + " (Your advert #" + objAdvert.AdvertId.ToString() + " at www.GSE-Mart.aero)" + "'>Email Seller</a>", Row, 0);
 
             string strUrl = objAdvert.URL;
-            AddDetailRow(tblContactDetails, "Website:", "<a href='" + ResolveUrl("~/ClickThrough.aspx") + "?id=" + objAdvert.AdvertId.ToString() + "&url=" + Server.UrlEncode(strUrl) + "' target='_blank'>Visit Web Site</a>", Row, 1);
+            //AddDetailRow(tblContactDetails, "Website:", "<a href='" + ResolveUrl("~/ClickThrough.aspx") + "?id=" + objAdvert.AdvertId.ToString() + "&url=" + Server.UrlEncode(strUrl) + "' target='_blank'>Visit Web Site</a>", Row, 1);
+            AddDetailRow(tblContactDetails, "Website:", "<a href='"+ strUrl + "' target='_blank'>Visit Web Site</a>", Row, 1);
             Row++;
 
             if (objAdvert.ASAMemberYN == true)
