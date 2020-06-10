@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<preserve resultType="2" virtualPath="/Qualitiva.GSEMART.Web/App_Browsers/" hash="1b606b73" filehash="ffffc68ccfdbc182" flags="110000" assembly="App_Browsers" type="ASP.ApplicationBrowserCapabilitiesFactory">
-    <filedeps>
-        <filedep name="/Qualitiva.GSEMART.Web/App_Browsers/BrowserFile.browser" />
-    </filedeps>
-</preserve>

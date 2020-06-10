@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<siteMap enableLocalization="true">
-	<siteMapNode>
-		<siteMapNode url="~/content/seller/Adverts.aspx" title="ADVERTS"/>
-		<siteMapNode url="~/content/seller/invoiceList.aspx" title="INVOICES"/>
-		<siteMapNode url="~/content/seller/Profile.aspx" title="ACCOUNT INFORMATION"/>
-		<siteMapNode url="~/logout.aspx" title="LOGOUT"/>
-	</siteMapNode>
-</siteMap>
